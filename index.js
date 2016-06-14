@@ -22,6 +22,10 @@ server.post('/contact', function(request, response){
   response.json(request.body);
 });
 
+server.post('/info', function(request, response){
+  response.json(request.body);
+});
+
 server.listen(8080, function(){
   console.log('now listening on port 8080');
 });

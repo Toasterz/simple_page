@@ -10,5 +10,23 @@
     <li><a href = "/">Home</a></li>
     <li><a href = "/contact">Contact</a></li>
     <li><a href = "/about">About me</a></li>
+
+    <div class = "form">
+      <form action="/info" method = "post">
+        <h2>Requesting additional information</h2>
+        <label for = "name">Name:</label>
+        <input type = "text" name = "name" required>
+        <br>
+        <label for = "email">Email:</label>
+        <input type = "email" name = "email" required>
+        <br>
+        <label for = "address">Address</label>
+        <textarea name = "address" required rows = "4" cols = "50"> </textarea>
+        <br>
+        <label for = "telephone">Telephone:</label>
+        <input type = "number" name = "telephone" required>
+        <br>
+        <button type = "submit">Send</button>
+      </form>
 </body>
     </html>
